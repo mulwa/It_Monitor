@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1032860006145",
+    "firebase_url": "https://itmonitor-bad15.firebaseio.com",
+    "project_id": "itmonitor-bad15",
+    "storage_bucket": "itmonitor-bad15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032860006145:android:90bf832469e3b8b5",
+        "android_client_info": {
+          "package_name": "cj_server.com.itmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032860006145-htroj4s4lf7on06dbt0p7dopjidrd94b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cj_server.com.itmonitor",
+            "certificate_hash": "b9c3baf48b3b8d8d2c9daa8ba5c26e7cdeda0b45"
+          }
+        },
+        {
+          "client_id": "1032860006145-o77k0bdltg1nlnbrsdqtvl86talb4487.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuhAfC0AUKKPE5yoHORGF4GGSBsrBk-pA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032860006145-o77k0bdltg1nlnbrsdqtvl86talb4487.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

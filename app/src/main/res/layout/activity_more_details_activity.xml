@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data class="MoreEventBinding">
+
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="cj_server.com.itmonitor.more_details_activity">
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/included"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventName"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:hint="@string/events_activity_title"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventName"
+                    android:id="@+id/eventDescrition"
+                    android:lineSpacingExtra="1.5pt"
+                    android:hint="@string/dummyText"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventVenue"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_below="@+id/eventDescrition"
+                    android:hint="@string/eventVenue_hint"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventVenue"
+                    android:id="@+id/eventDate"
+                    android:textColor="@color/blackText"
+                    android:hint="@string/eventDate_hint"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventTime"
+                    android:layout_below="@+id/eventVenue"
+                    android:hint="@string/eventDate_hint"
+                   android:textColor="@color/blackText"
+                    android:layout_alignParentRight="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edTarget"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/eventTarget"
+                    android:textStyle="italic"
+                    android:layout_below="@+id/eventTime"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+
+
+</LinearLayout>
+</layout>

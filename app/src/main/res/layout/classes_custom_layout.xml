@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data class="classItemBinding">
+        <variable
+            name="item"
+            type="cj_server.com.itmonitor.Pojo.NewClass"/>
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:hint="January-2017"
+        android:text="@{item.className}"
+        android:id="@+id/tvclassName"/>
+</LinearLayout>
+</layout>

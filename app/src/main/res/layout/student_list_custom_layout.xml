@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_image"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:src="@drawable/cover"
+    app:civ_border_width="2dp"
+    app:civ_border_color="#FFF"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/profile_image">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+           android:id="@+id/ed_student_name"
+            android:hint="CHRISTOPHER MULWA"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_organization_name"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/ed_student_name"
+            android:text="Google Complex"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0707200314"
+            android:id="@+id/ed_mobile_no"
+            android:layout_below="@+id/ed_organization_name"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_call"
+            android:layout_below="@+id/ed_organization_name"
+            android:id="@+id/ib_call"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">I-Tern</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_menu">Search</string>
+
+    <string name="organization_name_Hint">Organization Name</string>
+    <string name="building_name">Building Name</string>
+    <string name="floor_hint">Floor Number</string>
+    <string name="branch_hint">Branch</string>
+    <string name="date_hint">Start  Date</string>
+    <string name="telephone_hint">Office Telephone Number</string>
+    <string name="enable_location">Please Enable Location Services</string>
+    <string name="locationNull">Your current location is required Click the Location Button and confirm it\'s correct</string>
+    <string name="btn_save">Submit Form</string>
+
+    <!--sign  up page-->
+    <string name="student_name_hint">Your Student Name</string>
+    <string name="registration_no_hint"> Reg No eg (SCT221-5872-2015)</string>
+    <string name="mobile_no_hint">Mobile Number</string>
+    <string name="email_address_hint">Email Adress</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="showPassword">Show Password</string>
+    <string name="forgotPassword">forgot Password?</string>
+    <string name="signup_link">Create Account</string>
+
+    <string name="creatingAccount">Please wait Creating Account</string>
+    <string name="authenticating">Please wait..Authenticating User</string>
+    <string name="title_activity_student_maps">Map</string>
+
+    <!--main activity string-->
+    <string name="exit_string">Are you sure you want to exit</string>
+    <string name="ok">OK</string>
+    <string name="events_activity_title">Upcomming Events</string>
+
+    <string name="dummyText">As you can see, it is exactly the same as the P1
+        layout above, except with a different background color. What we intend
+        to achieve with this however, is a bottom sheet that is initially shown
+        fully to the user, then slides down halfway out of the screen, and finally can
+        be dismissed completely from the screen by either sliding it out or clicking the button.
+        As you can see, it is exactly the same as the P1
+        layout above, except with a different background color. What we intend
+        to achieve with this however, is a bottom sheet that is initially shown
+        fully to the user, then slides down halfway out of the screen, and finally can
+        be dismissed completely from the screen by either sliding it out or clicking the button.</string>
+
+    <string name="eventVenue_hint">Event Venue</string>
+    <string name="eventDate_hint">Event date </string>
+    <string name="evenTime_hint">Event Time</string>
+    <string name="eventTarget">Event Target</string>
+    <!--student log composition-->
+    <string name="title_activity_student_logs">StudentLogs</string>
+    <string name="logsummary">Summary of  what  you have learned</string>
+    <string name="logGuide">Write your  Daily activity</string>
+    <string name="sendLog">Send Log</string>
+</resources>

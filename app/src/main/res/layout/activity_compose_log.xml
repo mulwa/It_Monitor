@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data class="ComposeClass">
+
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    tools:context="cj_server.com.itmonitor.composeLog">
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/included"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record your Daily Activities"
+        android:textSize="18sp"
+        android:textColor="@color/indigo"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ed_summary"
+                    android:hint="@string/logsummary"
+                    android:background="@drawable/edit_drawable"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <EditText
+                    android:id="@+id/ed_description"
+                    android:layout_width="fill_parent"
+                    android:minHeight="100dp"
+                    android:layout_height="150dp"
+                    android:hint="@string/logGuide"
+                    android:gravity="top"
+                    android:padding="10dp"
+                    android:maxLength="2000"
+                    android:background="@drawable/edit_drawable"
+                    android:lines="5"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:layout_below="@+id/ed_logContent">
+                </EditText>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnCommit"
+                    android:background="@color/accent"
+                    android:src="@drawable/ic_send_white_24dp"
+                    android:layout_gravity="right"/>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>
+</layout>

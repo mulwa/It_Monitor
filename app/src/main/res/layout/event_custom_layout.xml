@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:id="@+id/relativeLayout"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_eventTitle"
+        android:hint="Event Name"
+        android:maxLength="25"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_eventTitle"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="@string/dummyText"
+        android:id="@+id/event_Desc"
+        android:lineSpacingExtra="0.5pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="2017-06-29"
+        android:textStyle="bold"
+        android:textColor="@color/indigo"
+        android:layout_below="@+id/event_Desc"
+        android:id="@+id/ed_date"/>
+
+
+
+
+
+</RelativeLayout>

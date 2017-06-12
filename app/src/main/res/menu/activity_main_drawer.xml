@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Upcomming Events" />
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Department News" />
+    </group>
+
+    <item android:title="AttachMent">
+        <menu>
+            <item
+                android:id="@+id/returnform"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Fill Return form" />
+            <item
+                android:id="@+id/locateClassmate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Near classmate" />
+            <item
+                android:id="@+id/composeLog"
+                android:icon="@drawable/ic_menu_send"
+                android:title=">My Logs" />
+
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Login" />
+            <item
+                android:id="@+id/signUp"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Sign Up" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>
